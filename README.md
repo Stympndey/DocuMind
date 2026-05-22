@@ -1,6 +1,5 @@
-## 📚 DocuMind – AI‑Powered Personal Tutor  
+## 📚 DocuMind – AI‑Powered Personal Tutor
 
-[![GitHub stars](https://img.shields.io/github/stars/your‑username/documind?style=flat&logo=github)](https://github.com/your-username/documind)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
 [![Node.js](https://img.shields.io/badge/Node.js-≥18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)  
 [![Vite](https://img.shields.io/badge/Vite-6.2.3-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)  
