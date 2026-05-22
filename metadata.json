@@ -1,0 +1,6 @@
+{
+  "name": "DocuMind",
+  "description": "DocuMind is a personal AI tutor that turns reading materials and video lectures into interactive study sessions with grounded quizzes and summaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
