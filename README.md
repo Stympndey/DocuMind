@@ -1,142 +1,311 @@
-## 📚 DocuMind – AI‑Powered Personal Tutor
+# 📚 DocuMind — AI-Powered Personal Study Companion
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Node.js](https://img.shields.io/badge/Node.js-≥18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)  
-[![Vite](https://img.shields.io/badge/Vite-6.2.3-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)  
+<p align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8EF7,50:7B68EE,100:00C9A7&height=250&section=header&text=DocuMind&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+
+<h3 align="center">Transform PDFs, Books & Video Lectures into Interactive Learning Experiences</h3>
+
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=4F8EF7&center=true&vCenter=true&width=700&lines=Summarize+Documents+Instantly;Generate+AI-Powered+Quizzes;Learn+Smarter+with+Google+Gemini;Your+Personal+AI+Study+Companion"/>
+</p>
+
+<p align="center">
+
+![License](https://img.shields.io/github/license/yourusername/documind?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/yourusername/documind?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/yourusername/documind?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/yourusername/documind?style=for-the-badge)
+
+</p>
+
+<p align="center">
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge\&logo=tailwindcss)
+![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge\&logo=google)
+
+</p>
+
+<p align="center">
+⭐ If you like this project, consider giving it a star!
+</p>
 
 ---
 
-### ✨ What is DocuMind?
+# 🌟 Overview
 
-DocuMind turns any **text material** (books, PDFs, articles) or **video lecture** into an **interactive study session**:
+**DocuMind** is an AI-powered learning platform that transforms your **PDFs, books, lecture notes, articles, and YouTube videos** into an interactive learning experience.
 
-* 📖 **Summaries** – concise, AI‑generated overviews of the content.  
-* 🧠 **Grounded Quizzes** – multiple‑choice, fill‑in‑the‑blank, and flash‑card style questions that stay true to the source.  
-* 🎯 **Personalised Review** – Adaptive difficulty based on your answers.  
+Instead of spending hours reading hundreds of pages, DocuMind helps you understand concepts faster by generating intelligent summaries, adaptive quizzes, flashcards, and personalized revision sessions powered by **Google Gemini AI**.
 
-All of this runs locally, powered by the Gemini API, so your data never leaves your machine.
+Whether you're preparing for university exams, coding interviews, competitive exams, certifications, or learning something new, DocuMind makes studying faster, smarter, and more engaging.
 
 ---
 
-### 🎥 Demo (Live)
+# ✨ Features
 
-> **Try it now** – clone the repo, run `npm install` and `npm run dev`. Open `http://localhost:5173` and start uploading PDFs or pasting URLs to your favorite lecture videos.
-
-_(If you’ve deployed to GitHub Pages, replace the link below with your pages URL.)_  
-[🚀 Live demo → **documind.pages.dev**](#)
+| Feature                  | Description                                            |
+| ------------------------ | ------------------------------------------------------ |
+| 📄 Smart PDF Analysis    | Upload PDFs and instantly extract key concepts         |
+| 🎥 YouTube Learning      | Learn from video lectures using AI-generated summaries |
+| 🧠 AI Summaries          | Short, detailed and topic-wise summaries               |
+| ❓ AI Quiz Generator      | MCQs, Fill in the Blanks, True/False and Flashcards    |
+| 🎯 Personalized Learning | Adaptive quizzes based on your performance             |
+| ⚡ Lightning Fast         | Built with React + Vite for excellent performance      |
+| 🔒 Privacy First         | API Keys stay secure using local environment variables |
 
 ---
 
-## 🚀 Getting Started
+# 🎬 Demo
 
-### Prerequisites
+## 📹 Application Demo
 
-* **Node.js** (v18+)
-* **Git** (for cloning & committing)
-* A **Gemini API key** – you can obtain one from the [Google AI Studio console](https://ai.google.dev/).
+> Replace this GIF after recording your application.
 
-### Install & Run Locally
+<p align="center">
+<img src="./assets/demo.gif" width="900"/>
+</p>
+
+---
+
+# 📸 Screenshots
+
+| Dashboard                 | Upload                 | Quiz                 |
+| ------------------------- | ---------------------- | -------------------- |
+| ![](assets/dashboard.png) | ![](assets/upload.png) | ![](assets/quiz.png) |
+
+---
+
+# ⚙️ How It Works
+
+```text
+                📄 Upload PDF
+                     │
+                     ▼
+          🤖 Google Gemini AI
+                     │
+     ┌───────────────┼────────────────┐
+     ▼               ▼                ▼
+ 📖 Summary      🧠 Quiz        📝 Flashcards
+                     │
+                     ▼
+          🎯 Personalized Learning
+```
+
+---
+
+# 🚀 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,typescript,nodejs,vite,tailwind,git,github,vscode"/>
+
+</p>
+
+| Category   | Technology        |
+| ---------- | ----------------- |
+| Frontend   | React 19          |
+| Language   | TypeScript        |
+| Styling    | Tailwind CSS      |
+| Backend    | Node.js           |
+| AI         | Google Gemini API |
+| Build Tool | Vite              |
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
 
 ```bash
-# 1️⃣ Clone the repo
-git clone https://github.com/your-username/documind.git
+git clone https://github.com/yourusername/documind.git
+```
+
+## Navigate into the Project
+
+```bash
 cd documind
+```
 
-# 2️⃣ Install dependencies
+## Install Dependencies
+
+```bash
 npm install
+```
 
-# 3️⃣ Set your Gemini key (create a .env.local file)
-echo "GEMINI_API_KEY=YOUR_KEY_HERE" > .env.local
+## Create Environment File
 
-# 4️⃣ Start the dev server
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+## Run Development Server
+
+```bash
 npm run dev
 ```
 
-Open <http://localhost:5173> and start exploring!
+Open
 
-### Build for Production
+```
+http://localhost:5173
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+DocuMind
+│
+├── public
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── hooks
+│   ├── services
+│   ├── utils
+│   ├── assets
+│   └── App.tsx
+│
+├── server
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── .env.example
+└── README.md
+```
+
+---
+
+# 📜 Available Scripts
+
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start Development Server |
+| `npm run build`   | Production Build         |
+| `npm run preview` | Preview Production Build |
+| `npm run lint`    | Run ESLint               |
+
+---
+
+# 💡 Why DocuMind?
+
+| Traditional Learning       | DocuMind                 |
+| -------------------------- | ------------------------ |
+| 😴 Read hundreds of pages  | ⚡ Instant AI summaries   |
+| ❌ Create notes manually    | 🤖 Automatic notes       |
+| ❌ Prepare quizzes yourself | 🧠 AI-generated quizzes  |
+| ❌ Passive reading          | 🎯 Interactive learning  |
+| ❌ Difficult revision       | 📚 Personalized revision |
+
+---
+
+# 🎓 Perfect For
+
+* 🎓 College Students
+* 📚 School Students
+* 💼 Interview Preparation
+* 👨‍💻 Developers
+* 📖 Self Learners
+* 🏆 Competitive Exams
+* 📺 Online Course Learners
+* 📚 Researchers
+
+---
+
+# 🔮 Roadmap
+
+* [x] PDF Upload
+* [x] AI Summaries
+* [x] AI Quiz Generator
+* [x] Flashcards
+
+### Upcoming
+
+* [ ] AI Chat with PDFs
+* [ ] Voice Tutor
+* [ ] Study Planner
+* [ ] Progress Dashboard
+* [ ] Spaced Repetition
+* [ ] OCR Support
+* [ ] Multi-language Support
+* [ ] Mobile Application
+* [ ] Dark / Light Themes
+
+---
+
+# 🔒 Security
+
+* Environment variables protect your API keys.
+* Never commit your `.env` file.
+* HTTPS is recommended for production deployments.
+* No unnecessary user data is collected.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+
+2. Create a feature branch
 
 ```bash
-npm run build   # creates ./dist
-npm run start   # serves the built bundle with Node/Express
+git checkout -b feature/amazing-feature
 ```
 
----
+3. Commit your changes
 
-## 📂 Project Structure
-
-```
-DocuMind/
-├─ src/                  # React + Vite source files
-│   ├─ components/       # UI components (Quiz, Summary, Upload, etc.)
-│   ├─ hooks/            # Custom hooks for Gemini API calls
-│   └─ App.tsx           # Root component
-├─ server.ts             # Express server handling Gemini requests
-├─ vite.config.ts        # Vite configuration (Tailwind, React)
-├─ package.json          # Scripts, dependencies & devDependencies
-├─ tsconfig.json         # TypeScript config
-├─ .env.example          # Sample .env file
-└─ README.md             # ★ YOU ARE HERE ★
+```bash
+git commit -m "Added amazing feature"
 ```
 
----
+4. Push to GitHub
 
-## 🔧 Customisation & Extensibility
+```bash
+git push origin feature/amazing-feature
+```
 
-| Area | How to extend |
-|------|----------------|
-| **New content types** | Add parsers under `src/parsers/` (e.g., for audio transcripts). |
-| **AI prompts** | Edit the prompt templates in `src/prompts/` to change quiz style or summary length. |
-| **Styling** | Tailwind config lives in `tailwind.config.cjs`; modify or add new utilities for a fresh look. |
-| **Server‑side logic** | Extend `server.ts` to integrate other LLM providers or add caching. |
+5. Open a Pull Request
 
 ---
 
-## 📦 Deployment Options
+# ⭐ Support
 
-| Platform | Steps |
-|----------|-------|
-| **GitHub Pages** *(static UI only)* | `npm run build && git push origin gh-pages` |
-| **Vercel / Netlify** | Connect the repo, set `NODE_ENV=production`, provide `GEMINI_API_KEY` as an environment variable. |
-| **Docker** | `docker build -t documind . && docker run -p 3000:3000 documind` (see `Dockerfile` in the repo). |
+If you found this project useful,
 
----
+⭐ Star the repository
 
-## 🛡️ Security & Privacy
+🍴 Fork it
 
-* All processing happens **client‑side** or on your **local Node server**; no third‑party data collection.  
-* Your **Gemini API key** is stored only in `.env.local` (never committed).  
-* Feel free to host the server behind HTTPS or behind a VPN for extra safety.
+🐛 Report issues
+
+💡 Suggest improvements
+
+Every contribution helps make DocuMind even better.
 
 ---
 
-## 📚 Documentation
+# 📜 License
 
-* **API reference** – `src/api/` contains TypeScript interfaces for Gemini calls.  
-* **Component docs** – each component folder includes a `README.md` describing its props and usage.  
-* **Contribution guide** – see `CONTRIBUTING.md` for coding standards, linting, and testing.
+Distributed under the **MIT License**.
 
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please:
-
-1. Fork the repo.  
-2. Create a feature branch (`git checkout -b feat/awesome‑feature`).  
-3. Run lint & tests (`npm run lint && npm test`).  
-4. Open a Pull Request with a clear description of the change.
-
-Read the full guidelines in `CONTRIBUTING.md`.
+See the **LICENSE** file for more information.
 
 ---
 
-## 📜 License
+<div align="center">
 
-Distributed under the **MIT License** – see the `LICENSE` file for details.
+## 🚀 Learn Smarter • Study Faster • Remember Longer
 
----
+Built with ❤️ using **React**, **TypeScript**, **Vite**, and **Google Gemini**
 
-### 🎉 Happy Studying!
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:7B68EE,100:4F8EF7&height=120&section=footer"/>
 
-*Turn the world’s knowledge into your personal, AI‑enhanced classroom.*  
+</div>
