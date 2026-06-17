@@ -2,12 +2,11 @@
 # 📚 DocuMind — AI-Powered Personal Study Companion
 
 <p align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8EF7,50:7B68EE,100:00C9A7&height=250&section=header&text=DocuMind&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
-
-<h3 align="center">Transform PDFs, Books & Video Lectures into Interactive Learning Experiences</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8EF7,50:7B68EE,100:00C9A7&height=220&section=header&text=DocuMind&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+</p>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=4F8EF7&center=true&vCenter=true&width=700&lines=Summarize+Documents+Instantly;Generate+AI-Powered+Quizzes;Learn+Smarter+with+AI;Your+Personal+Study+Companion"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1200&color=4F8EF7&center=true&vCenter=true&width=650&lines=AI-powered+Study+Assistant;Summarize+PDFs+and+Notes;Generate+Smart+Quizzes;Learn+Faster+and+Better"/>
 </p>
 
 <p align="center">
@@ -20,25 +19,17 @@
 
 </p>
 
-<p align="center">
-⭐ If you like this project, consider giving it a star!
-</p>
-
 ---
 
 # 🌟 Overview
 
-**DocuMind** is an AI-powered learning platform that transforms **PDFs, books, lecture notes, articles, and video lectures** into interactive learning experiences.
+**DocuMind** is an AI-powered learning system that converts **PDFs, books, notes, and video lectures** into structured, interactive study material.
 
-Instead of spending hours reading long material, DocuMind helps you understand concepts faster by generating:
-
-- 📖 Smart summaries  
-- 🧠 AI-powered quizzes  
-- 🎯 Adaptive learning sessions  
-- 📝 Flashcards  
-- 📊 Personalized revision paths  
-
-Whether you're preparing for **exams, interviews, certifications, or self-learning**, DocuMind helps you learn faster and retain more.
+It helps you:
+- 📖 Understand topics faster  
+- 🧠 Generate instant quizzes  
+- 📝 Create summaries automatically  
+- 🎯 Improve revision efficiency  
 
 ---
 
@@ -46,31 +37,31 @@ Whether you're preparing for **exams, interviews, certifications, or self-learni
 
 | Feature | Description |
 |--------|-------------|
-| 📄 PDF Analysis | Extract key insights from uploaded documents |
-| 🎥 Video Learning | Learn from lectures via structured summaries |
-| 🧠 AI Summaries | Concise + detailed explanations |
-| ❓ Smart Quiz Generator | MCQ, True/False, Fill-in-the-blanks |
-| 🎯 Adaptive Learning | Difficulty adjusts based on performance |
-| ⚡ Fast Performance | Built with modern React + Vite stack |
-| 🔒 Privacy Focused | Local environment variables only |
+| 📄 Document Processing | Upload PDFs and extract knowledge |
+| 🎥 Video Learning | Convert lectures into summaries |
+| 🧠 AI Summaries | Clear and structured explanations |
+| ❓ Smart Quiz System | MCQ + Flashcards + Fill blanks |
+| 🎯 Adaptive Learning | Difficulty adjusts automatically |
+| ⚡ Fast UI | Built with React + Vite |
+| 🔒 Secure Setup | Environment-based API protection |
 
 ---
 
 # 🧠 How It Works
 
-```text
-📄 Upload Content
-      │
-      ▼
-🤖 AI Processing Layer
-      │
- ┌────┼────┐
- ▼    ▼    ▼
-📖   🧠   📝
+```
+📄 Input (PDF / Video)
+        │
+        ▼
+🤖 AI Processing Engine
+        │
+ ┌──────┼──────┐
+ ▼      ▼      ▼
+📖     🧠     📝
 Summary Quiz Flashcards
-      │
-      ▼
-🎯 Personalized Learning Experience
+        │
+        ▼
+🎯 Personalized Learning
 ```
 
 ---
@@ -78,11 +69,11 @@ Summary Quiz Flashcards
 # 🚀 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,typescript,nodejs,vite,tailwind,git,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=react,typescript,nodejs,vite,tailwind,git,github"/>
 </p>
 
-| Layer | Tech |
-|------|------|
+| Layer | Technology |
+|------|------------|
 | Frontend | React |
 | Language | TypeScript |
 | Backend | Node.js |
@@ -93,38 +84,32 @@ Summary Quiz Flashcards
 
 # 🚀 Installation
 
-## Clone the repository
-
+### 1. Clone repo
 ```bash
 git clone https://github.com/your-username/documind.git
 ```
 
-## Enter project folder
-
+### 2. Open folder
 ```bash
 cd documind
 ```
 
-## Install dependencies
-
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
-## Setup environment
-
+### 4. Setup environment
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-## Start development server
-
+### 5. Run development server
 ```bash
 npm run dev
 ```
 
 Open:
-
 ```
 http://localhost:5173
 ```
@@ -133,9 +118,8 @@ http://localhost:5173
 
 # 📂 Project Structure
 
-```text
+```
 DocuMind/
-│
 ├── public/
 ├── src/
 │   ├── components/
@@ -144,7 +128,6 @@ DocuMind/
 │   ├── services/
 │   ├── utils/
 │   └── App.tsx
-│
 ├── server/
 ├── package.json
 ├── vite.config.ts
@@ -156,23 +139,23 @@ DocuMind/
 
 # 📜 Scripts
 
-| Command | Description |
-|--------|-------------|
-| npm run dev | Start development server |
-| npm run build | Build for production |
-| npm run preview | Preview production build |
-| npm run lint | Run linter |
+| Command | Action |
+|--------|--------|
+| npm run dev | Start dev server |
+| npm run build | Build production |
+| npm run preview | Preview build |
+| npm run lint | Run lint checks |
 
 ---
 
 # 💡 Why DocuMind?
 
-| Traditional Study | DocuMind |
-|------------------|----------|
-| Long reading sessions | Instant summaries |
-| Manual note making | AI-generated notes |
-| Self-made quizzes | Auto-generated quizzes |
-| Passive learning | Active learning system |
+| Traditional Learning | DocuMind |
+|----------------------|----------|
+| Long reading | Instant summaries |
+| Manual notes | AI-generated notes |
+| Self-made quizzes | Auto quizzes |
+| Passive study | Active learning |
 
 ---
 
@@ -180,59 +163,48 @@ DocuMind/
 
 - Students  
 - Exam preparation  
-- Interview prep  
-- Online course learning  
-- Self-learning new topics  
-- Revision before exams  
+- Interview preparation  
+- Online courses  
+- Self learning  
+- Revision system  
 
 ---
 
 # 🔮 Roadmap
 
-- [x] PDF upload system  
-- [x] AI summarization  
-- [x] Quiz generation  
-- [ ] AI chat with documents  
-- [ ] Voice-based learning  
-- [ ] Study planner  
-- [ ] Progress tracking dashboard  
-- [ ] OCR for scanned PDFs  
-- [ ] Mobile version  
+### Completed
+- [x] PDF processing
+- [x] AI summaries
+- [x] Quiz generator
+
+### Upcoming
+- [ ] Chat with documents
+- [ ] Voice assistant
+- [ ] Progress tracking
+- [ ] OCR support
+- [ ] Mobile app
 
 ---
 
 # 🤝 Contributing
 
-1. Fork repo  
-2. Create branch  
 ```bash
-git checkout -b feature-name
+Fork repo → Create branch → Commit → Push → PR
 ```
-3. Commit changes  
-```bash
-git commit -m "feat: added feature"
-```
-4. Push branch  
-```bash
-git push origin feature-name
-```
-5. Open PR  
 
 ---
 
 # ⭐ Support
 
 If you like this project:
-
-- ⭐ Star the repo  
+- ⭐ Star it  
 - 🍴 Fork it  
-- 🛠 Improve it  
 - 📢 Share it  
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+MIT License © DocuMind
 ```
 ````
