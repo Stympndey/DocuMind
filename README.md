@@ -1,3 +1,4 @@
+````md
 # 📚 DocuMind — AI-Powered Personal Study Companion
 
 <p align="center">
@@ -6,26 +7,16 @@
 <h3 align="center">Transform PDFs, Books & Video Lectures into Interactive Learning Experiences</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=4F8EF7&center=true&vCenter=true&width=700&lines=Summarize+Documents+Instantly;Generate+AI-Powered+Quizzes;Learn+Smarter+with+Google+Gemini;Your+Personal+AI+Study+Companion"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=4F8EF7&center=true&vCenter=true&width=700&lines=Summarize+Documents+Instantly;Generate+AI-Powered+Quizzes;Learn+Smarter+with+AI;Your+Personal+Study+Companion"/>
 </p>
 
 <p align="center">
 
-![License](https://img.shields.io/github/license/yourusername/documind?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/yourusername/documind?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/yourusername/documind?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/yourusername/documind?style=for-the-badge)
-
-</p>
-
-<p align="center">
-
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge\&logo=vite)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge\&logo=tailwindcss)
-![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge\&logo=google)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss)
 
 </p>
 
@@ -37,62 +28,49 @@
 
 # 🌟 Overview
 
-**DocuMind** is an AI-powered learning platform that transforms your **PDFs, books, lecture notes, articles, and YouTube videos** into an interactive learning experience.
+**DocuMind** is an AI-powered learning platform that transforms **PDFs, books, lecture notes, articles, and video lectures** into interactive learning experiences.
 
-Instead of spending hours reading hundreds of pages, DocuMind helps you understand concepts faster by generating intelligent summaries, adaptive quizzes, flashcards, and personalized revision sessions powered by **Google Gemini AI**.
+Instead of spending hours reading long material, DocuMind helps you understand concepts faster by generating:
 
-Whether you're preparing for university exams, coding interviews, competitive exams, certifications, or learning something new, DocuMind makes studying faster, smarter, and more engaging.
+- 📖 Smart summaries  
+- 🧠 AI-powered quizzes  
+- 🎯 Adaptive learning sessions  
+- 📝 Flashcards  
+- 📊 Personalized revision paths  
+
+Whether you're preparing for **exams, interviews, certifications, or self-learning**, DocuMind helps you learn faster and retain more.
 
 ---
 
 # ✨ Features
 
-| Feature                  | Description                                            |
-| ------------------------ | ------------------------------------------------------ |
-| 📄 Smart PDF Analysis    | Upload PDFs and instantly extract key concepts         |
-| 🎥 YouTube Learning      | Learn from video lectures using AI-generated summaries |
-| 🧠 AI Summaries          | Short, detailed and topic-wise summaries               |
-| ❓ AI Quiz Generator      | MCQs, Fill in the Blanks, True/False and Flashcards    |
-| 🎯 Personalized Learning | Adaptive quizzes based on your performance             |
-| ⚡ Lightning Fast         | Built with React + Vite for excellent performance      |
-| 🔒 Privacy First         | API Keys stay secure using local environment variables |
+| Feature | Description |
+|--------|-------------|
+| 📄 PDF Analysis | Extract key insights from uploaded documents |
+| 🎥 Video Learning | Learn from lectures via structured summaries |
+| 🧠 AI Summaries | Concise + detailed explanations |
+| ❓ Smart Quiz Generator | MCQ, True/False, Fill-in-the-blanks |
+| 🎯 Adaptive Learning | Difficulty adjusts based on performance |
+| ⚡ Fast Performance | Built with modern React + Vite stack |
+| 🔒 Privacy Focused | Local environment variables only |
 
 ---
 
-# 🎬 Demo
-
-## 📹 Application Demo
-
-> Replace this GIF after recording your application.
-
-<p align="center">
-<img src="./assets/demo.gif" width="900"/>
-</p>
-
----
-
-# 📸 Screenshots
-
-| Dashboard                 | Upload                 | Quiz                 |
-| ------------------------- | ---------------------- | -------------------- |
-| ![](assets/dashboard.png) | ![](assets/upload.png) | ![](assets/quiz.png) |
-
----
-
-# ⚙️ How It Works
+# 🧠 How It Works
 
 ```text
-                📄 Upload PDF
-                     │
-                     ▼
-          🤖 Google Gemini AI
-                     │
-     ┌───────────────┼────────────────┐
-     ▼               ▼                ▼
- 📖 Summary      🧠 Quiz        📝 Flashcards
-                     │
-                     ▼
-          🎯 Personalized Learning
+📄 Upload Content
+      │
+      ▼
+🤖 AI Processing Layer
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+📖   🧠   📝
+Summary Quiz Flashcards
+      │
+      ▼
+🎯 Personalized Learning Experience
 ```
 
 ---
@@ -100,55 +78,52 @@ Whether you're preparing for university exams, coding interviews, competitive ex
 # 🚀 Tech Stack
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=react,typescript,nodejs,vite,tailwind,git,github,vscode"/>
-
 </p>
 
-| Category   | Technology        |
-| ---------- | ----------------- |
-| Frontend   | React 19          |
-| Language   | TypeScript        |
-| Styling    | Tailwind CSS      |
-| Backend    | Node.js           |
-| AI         | Google Gemini API |
-| Build Tool | Vite              |
+| Layer | Tech |
+|------|------|
+| Frontend | React |
+| Language | TypeScript |
+| Backend | Node.js |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
 
 ---
 
 # 🚀 Installation
 
-## Clone Repository
+## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/documind.git
+git clone https://github.com/your-username/documind.git
 ```
 
-## Navigate into the Project
+## Enter project folder
 
 ```bash
 cd documind
 ```
 
-## Install Dependencies
+## Install dependencies
 
 ```bash
 npm install
 ```
 
-## Create Environment File
+## Setup environment
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-## Run Development Server
+## Start development server
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
 ```
 http://localhost:5173
@@ -159,153 +134,105 @@ http://localhost:5173
 # 📂 Project Structure
 
 ```text
-DocuMind
+DocuMind/
 │
-├── public
-│
-├── src
-│   ├── components
-│   ├── pages
-│   ├── hooks
-│   ├── services
-│   ├── utils
-│   ├── assets
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── utils/
 │   └── App.tsx
 │
-├── server
+├── server/
 ├── package.json
 ├── vite.config.ts
 ├── tsconfig.json
-├── .env.example
 └── README.md
 ```
 
 ---
 
-# 📜 Available Scripts
+# 📜 Scripts
 
-| Command           | Description              |
-| ----------------- | ------------------------ |
-| `npm run dev`     | Start Development Server |
-| `npm run build`   | Production Build         |
-| `npm run preview` | Preview Production Build |
-| `npm run lint`    | Run ESLint               |
+| Command | Description |
+|--------|-------------|
+| npm run dev | Start development server |
+| npm run build | Build for production |
+| npm run preview | Preview production build |
+| npm run lint | Run linter |
 
 ---
 
 # 💡 Why DocuMind?
 
-| Traditional Learning       | DocuMind                 |
-| -------------------------- | ------------------------ |
-| 😴 Read hundreds of pages  | ⚡ Instant AI summaries   |
-| ❌ Create notes manually    | 🤖 Automatic notes       |
-| ❌ Prepare quizzes yourself | 🧠 AI-generated quizzes  |
-| ❌ Passive reading          | 🎯 Interactive learning  |
-| ❌ Difficult revision       | 📚 Personalized revision |
+| Traditional Study | DocuMind |
+|------------------|----------|
+| Long reading sessions | Instant summaries |
+| Manual note making | AI-generated notes |
+| Self-made quizzes | Auto-generated quizzes |
+| Passive learning | Active learning system |
 
 ---
 
-# 🎓 Perfect For
+# 🎓 Use Cases
 
-* 🎓 College Students
-* 📚 School Students
-* 💼 Interview Preparation
-* 👨‍💻 Developers
-* 📖 Self Learners
-* 🏆 Competitive Exams
-* 📺 Online Course Learners
-* 📚 Researchers
+- Students  
+- Exam preparation  
+- Interview prep  
+- Online course learning  
+- Self-learning new topics  
+- Revision before exams  
 
 ---
 
 # 🔮 Roadmap
 
-* [x] PDF Upload
-* [x] AI Summaries
-* [x] AI Quiz Generator
-* [x] Flashcards
-
-### Upcoming
-
-* [ ] AI Chat with PDFs
-* [ ] Voice Tutor
-* [ ] Study Planner
-* [ ] Progress Dashboard
-* [ ] Spaced Repetition
-* [ ] OCR Support
-* [ ] Multi-language Support
-* [ ] Mobile Application
-* [ ] Dark / Light Themes
-
----
-
-# 🔒 Security
-
-* Environment variables protect your API keys.
-* Never commit your `.env` file.
-* HTTPS is recommended for production deployments.
-* No unnecessary user data is collected.
+- [x] PDF upload system  
+- [x] AI summarization  
+- [x] Quiz generation  
+- [ ] AI chat with documents  
+- [ ] Voice-based learning  
+- [ ] Study planner  
+- [ ] Progress tracking dashboard  
+- [ ] OCR for scanned PDFs  
+- [ ] Mobile version  
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-
-2. Create a feature branch
-
+1. Fork repo  
+2. Create branch  
 ```bash
-git checkout -b feature/amazing-feature
+git checkout -b feature-name
 ```
-
-3. Commit your changes
-
+3. Commit changes  
 ```bash
-git commit -m "Added amazing feature"
+git commit -m "feat: added feature"
 ```
-
-4. Push to GitHub
-
+4. Push branch  
 ```bash
-git push origin feature/amazing-feature
+git push origin feature-name
 ```
-
-5. Open a Pull Request
+5. Open PR  
 
 ---
 
 # ⭐ Support
 
-If you found this project useful,
+If you like this project:
 
-⭐ Star the repository
-
-🍴 Fork it
-
-🐛 Report issues
-
-💡 Suggest improvements
-
-Every contribution helps make DocuMind even better.
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 🛠 Improve it  
+- 📢 Share it  
 
 ---
 
 # 📜 License
 
-Distributed under the **MIT License**.
-
-See the **LICENSE** file for more information.
-
----
-
-<div align="center">
-
-## 🚀 Learn Smarter • Study Faster • Remember Longer
-
-Built with ❤️ using **React**, **TypeScript**, **Vite**, and **Google Gemini**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:7B68EE,100:4F8EF7&height=120&section=footer"/>
-
-</div>
+This project is licensed under the MIT License.
+```
+````
